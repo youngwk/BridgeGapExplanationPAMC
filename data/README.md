@@ -4,7 +4,7 @@
 
 1. Navigate to the PASCAL data directory:
 ```
-cd /path/to/LargeLossMatters/data/pascal
+cd /path/to/BridgeGapExplanationPAMC/data/pascal
 ```
 2. Download the data:
 ```
@@ -23,7 +23,7 @@ rm pascal_raw.tar
 
 1. Navigate to the COCO data directory:
 ```
-cd /path/to/LargeLossMatters/data/coco
+cd /path/to/BridgeGapExplanationPAMC/data/coco
 ```
 2. Download the data:
 ```
@@ -49,11 +49,11 @@ rm coco_val_raw.zip
 
 1. Follow the instructions [here](https://lms.comp.nus.edu.sg/wp-content/uploads/2019/research/nuswide/NUS-WIDE.html) to request a download link for the NUSWIDE images. Once approved, you will receive a link to download `Flickr.zip` which contains the images for the NUSWIDE dataset. Download this file and move it to the NUSWIDE data directory, so that the full path is:
 ```
-/path/to/LargeLossMatters/data/nuswide/Flickr.zip
+/path/to/BridgeGapExplanationPAMC/data/nuswide/Flickr.zip
 ```
 2. Navigate to the NUSWIDE data directory:
 ```
-cd /path/to/LargeLossMatters/data/nuswide
+cd /path/to/BridgeGapExplanationPAMC/data/nuswide
 ```
 3. Extract the images:
 ```
@@ -70,18 +70,18 @@ formatted_val_labels.npy
 formatted_train_images.npy
 formatted_val_images.npy
 ```
-from [here](https://caltech.box.com/v/single-positive-multi-label) and copy them to `/path/to/LargeLossMatters/data/nuswide`. Note that these files correspond to the subset of the NUSWIDE dataset that we re-crawled ourselves. 
+from [here](https://caltech.box.com/v/single-positive-multi-label) and copy them to `/path/to/BridgeGapExplanationPAMC/data/nuswide`. Note that these files correspond to the subset of the NUSWIDE dataset that we re-crawled ourselves. 
 
 
 ## CUB
 
 1. Navigate to the CUB data directory:
 ```
-cd /path/to/LargeLossMatters/data/cub
+cd /path/to/BridgeGapExplanationPAMC/data/cub
 ```
 2. Download `CUB_200_2011.tgz` from [here](http://www.vision.caltech.edu/visipedia-data/CUB-200-2011/CUB_200_2011.tgz) and move the resulting file to the CUB data directory, resulting in the full path:
 ```
-/path/to/LargeLossMatters/data/cub/CUB_200_2011.tgz
+/path/to/BridgeGapExplanationPAMC/data/cub/CUB_200_2011.tgz
 ```
 3. Extract the data:
 ```
@@ -96,7 +96,7 @@ rm CUB_200_2011.tgz
 
 1. Navigate to the OpenImages V3 data directory:
 ```
-cd /path/to/LargeLossMatters/data/openimages
+cd /path/to/BridgeGapExplanationPAMC/data/openimages
 ```
 2. Download metadatas:
 ```
@@ -134,7 +134,7 @@ aws s3 --no-sign-request sync s3://open-images-dataset/test images_test
 # Formatting the Data
 The `preproc` folder contains a few scripts which can be used to produce uniformly formatted image lists and labels:
 ```
-cd /path/to/LargeLossMatters/preproc
+cd /path/to/BridgeGapExplanationPAMC/preproc
 python format_coco.py
 python format_cub.py
 python format_pascal.py
@@ -144,7 +144,7 @@ Note that NUSWIDE does not have a formatting script. This is because we provide 
 # Generating Observed Labels
 The script `preproc/generate_observed_labels.py` subsamples the entries of a complete label matrix to generate "observed labels" which simulate single positive labeling. To generate observed labels for a given dataset, run:
 ```
-cd /path/to/LargeLossMatters/preproc
+cd /path/to/BridgeGapExplanationPAMC/preproc
 python generate_observed_labels.py --dataset X
 ```
 where `X` is replaced by `pascal`, `coco`, `nuswide`, or `cub`. You will only need to do this once.
