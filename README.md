@@ -38,5 +38,16 @@ Single positive label      |  Large-scale partial label (OpenImages V3)
 <img src="imgs/qualitative.png" width="100%" title="" alt=""></img>
 </p>
 
+## How to cite
+If our work is helpful, please consider citing our paper.
+```
+@article{kim2023bridging,
+  title={Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification},
+  author={Kim, Youngwook and Kim, Jae Myung and Jeong, Jieun and Schmid, Cordelia and Akata, Zeynep and Lee, Jungwoo},
+  journal={arXiv preprint arXiv:2304.01804},
+  year={2023}
+}
+```
+
 ## Acknowledgements
 Our code is heavily built upon [Multi-Label Learning from Single Positive Labels](https://github.com/elijahcole/single-positive-multi-label) and [Large Loss Matters in Weakly Supervised Multi-Label Classification](https://github.com/snucml/LargeLossMatters).
