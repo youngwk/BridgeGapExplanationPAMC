@@ -1,4 +1,4 @@
-# Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification (CVPR 2023) | [Paper](https://arxiv.org/abs/2304.01804)
+# Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification (CVPR 2023) | [Paper](https://openaccess.thecvf.com/content/CVPR2023/html/Kim_Bridging_the_Gap_Between_Model_Explanations_in_Partially_Annotated_Multi-Label_CVPR_2023_paper.html)
 
 Youngwook Kim<sup>1</sup>, Jae Myung Kim<sup>2</sup>, Jieun Jeong<sup>1,3</sup>, Cordelia Schmid<sup>4</sup>, Zeynep Akata<sup>2,5</sup>, and Jungwoo Lee<sup>1,3</sup>
 
