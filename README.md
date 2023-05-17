@@ -41,11 +41,13 @@ Single positive label      |  Large-scale partial label (OpenImages V3)
 ## How to cite
 If our work is helpful, please consider citing our paper.
 ```
-@article{kim2023bridging,
-  title={Bridging the Gap between Model Explanations in Partially Annotated Multi-label Classification},
-  author={Kim, Youngwook and Kim, Jae Myung and Jeong, Jieun and Schmid, Cordelia and Akata, Zeynep and Lee, Jungwoo},
-  journal={arXiv preprint arXiv:2304.01804},
-  year={2023}
+@InProceedings{Kim_2023_CVPR,
+    author    = {Kim, Youngwook and Kim, Jae Myung and Jeong, Jieun and Schmid, Cordelia and Akata, Zeynep and Lee, Jungwoo},
+    title     = {Bridging the Gap Between Model Explanations in Partially Annotated Multi-Label Classification},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2023},
+    pages     = {3408-3417}
 }
 ```
 
